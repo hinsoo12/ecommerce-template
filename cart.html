@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce | Your Cart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Logo and Search Bar Section -->
+        <div class="logo-search">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="logo" width="125px"></a>
+            </div>
+            <input type="text" id="search" placeholder="Search...">
+            <button type="button" onclick="searchFunction()"><i class="fa fa-search"></i></button>
+            <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        
+        <!-- Navigation List Section -->
+        <div class="navbar">
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="cart.html">Cart <img src="img/cart.png" width="30px" height="20px"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Cart items details -->
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="img/product-1.jpg">
+                        <div>
+                            <p>Samsung Galaxy A52</p>
+                            <small>Price: $448.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$448.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="img/product-2.jpg">
+                        <div>
+                            <p>Sony Cyber-Shot DSC-W830 20.1MP Digital Camera</p>
+                            <small>Price: $65.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$65.00</td>
+            </tr>
+        </table>
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$513.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$25.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$538.00</td>
+                </tr>
+            </table>
+        </div>
+        <div class="total-price">
+            <a href="" class="btn">Checkout</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Get Our App</h3>
+                    <p>Download App for IOS and Android mobile phone.</p>
+                    <div class="app-logo">
+                        <a href=""><img src="img/app-store.png"></a> 
+                        <a href=""><img src="img/play-store.png"></a>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="footer-col-3">
+                        <h3>Quick Links</h3>
+                        <ul class="horizontal-links">
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>                
+                <div class="footer-col-4">
+                    <h3>Find Us On</h3>
+                    <ul class="social-icons">
+                        <li><a href="#" target="_blank"><i class="fa fa-facebook"></i>Facebook</a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-instagram"></i>Instagram</a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-twitter"></i>Twitter</a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-youtube"></i>Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy; 2024 Sample Ecommerce Template. All Rights Reserved.</p>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

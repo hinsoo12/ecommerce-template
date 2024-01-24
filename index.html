@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce | Website Template</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyGePrSydYG2ea4E/hJLdWlq5V/PbN8/KT" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container">
+            <!-- Logo and Search Bar Section -->
+            <div class="logo-search">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.png" alt="logo" width="125px"></a>
+                </div>
+                <input type="text" id="search" placeholder="Search...">
+                <button type="button" onclick="searchFunction()"><i class="fa fa-search"></i></button>
+                <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+
+            <!-- Navigation List Section -->
+            <div class="navbar">
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="cart.html">Cart <img src="img/cart.png" width="30px" height="20px"></a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Main Content Section -->
+            <div class="row">
+                <div class="col-2">
+                    <img src="img/front-2.png">
+                </div>
+                <div class="col-2">
+                    <h1>Find Top Deals on Quality Products!</h1>
+                    <p>
+                        Discover an extensive collection of premium products that redefine quality, all available at irresistible prices.
+                        Experience the unparalleled selection and exceptional value that sets us apart.
+                        Explore and elevate your shopping journey with us!
+                    </p>
+                    <a href="products.html" class="btn">Explore Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feadtued Categories -->
+
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="img/category-1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="img/category-2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="img/category-3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Products -->
+
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details.html"><img src="img/product-4.jpg"></a>
+                <h4>SAMSUNG Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$55.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-2.jpg">
+                <h4>Sony Cyber-Shot DSC-W830 20.1MP Digital Camera</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$65.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-3.jpg">
+                <h4>Samsung Galaxy A52 5G Dual SIM</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$382.20</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-1.jpg">
+                <h4>Samsung Galaxy A52</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$448.00</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="productDetails.html"><img src="img/product-4.jpg"></a>
+                <h4>SAMSUNG Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$55.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-2.jpg">
+                <h4>Sony Cyber-Shot DSC-W830 20.1MP Digital Camera</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$65.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-3.jpg">
+                <h4>Samsung Galaxy A52 5G Dual SIM</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$382.20</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-1.jpg">
+                <h4>Samsung Galaxy A52</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$448.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Offer -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="img/smart-phone.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on Sample Ecommerce</p>
+                    <h1>iPhone 15 Pro Max</h1>
+                    <small>The iPhone 15 Pro Max is available in a stunning range of colors, 
+                        allowing you to choose the one that suits your style and personality.<br></small>
+                    <a href="products.html" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Brands -->
+
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="img/telebirr.png" alt="Telebirr">
+                </div>
+                <div class="col-5">
+                    <img src="img/cbe.png" alt="CBE">
+                </div>
+                <div class="col-5">
+                    <img src="img/awash.png" alt="Awash">
+                </div>
+                <div class="col-5">
+                    <img src="img/dashen.png" alt="Dashen">
+                </div>
+                <div class="col-5">
+                    <img src="img/cbo.png" alt="CBO">
+                </div>
+                <div class="col-5">
+                    <img src="img/logo-paypal.png" alt="PayPal">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Get Our App</h3>
+                    <p>Download App for IOS and Android mobile phone.</p>
+                    <div class="app-logo">
+                        <a href=""><img src="img/app-store.png"></a> 
+                        <a href=""><img src="img/play-store.png"></a>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="footer-col-3">
+                        <h3>Quick Links</h3>
+                        <ul class="horizontal-links">
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>                
+                <div class="footer-col-4">
+                    <h3>Find Us On</h3>
+                    <ul class="social-icons">
+                        <li><a href="#" target="_blank"><i class="fa fa-facebook"></i>Facebook</a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-instagram"></i>Instagram</a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-twitter"></i>Twitter</a></li>
+                        <li><a href="#" target="_blank"><i class="fa fa-youtube"></i>Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy; 2024 Sample Ecommerce Template. All Rights Reserved.</p>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
